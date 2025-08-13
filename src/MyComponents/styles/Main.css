@@ -1,0 +1,70 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: #f9f9f9;
+  overflow: auto;
+  position: relative;
+  padding: 2rem 0;
+}
+
+/* Import professional fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: #333333;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Content area wrapper */
+.content-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .background {
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 3rem 0;
+  }
+  
+  .content-area {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .background {
+    padding: 1rem;
+  }
+} 

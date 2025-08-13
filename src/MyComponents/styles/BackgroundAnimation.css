@@ -1,0 +1,85 @@
+#container-stars {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* Network background effect */
+#stars {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background-image: radial-gradient(#000 1px, transparent 1px);
+  background-size: 35px 35px;
+}
+
+/* Adding connecting lines effect */
+.network-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Hide previous ripple effects */
+#stars::before,
+#stars::after {
+  display: none;
+}
+
+/* Subtle glow effect */
+#glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  filter: blur(120px);
+  z-index: 0;
+}
+
+.circle:nth-of-type(1) {
+  background: radial-gradient(ellipse at center, rgba(230, 230, 230, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.circle:nth-of-type(2) {
+  background: radial-gradient(ellipse at center, rgba(240, 240, 240, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+/* Network lines container */
+.network-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #stars {
+    background-size: 25px 25px;
+  }
+} 

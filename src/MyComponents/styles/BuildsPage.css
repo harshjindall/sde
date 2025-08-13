@@ -1,0 +1,346 @@
+.builds-page {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.page-header {
+  text-align: center;
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #222;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0.5rem;
+  animation: fadeInDown 0.8s ease forwards;
+}
+
+.header-underline {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #333 0%, #666 100%);
+  margin: 0 auto;
+  animation: growWidth 1s ease forwards 0.3s;
+}
+
+.builds-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  z-index: 5;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 2.5rem;
+  color: #333;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #555;
+}
+
+/* Current project styling */
+.featured-project {
+  width: 100%;
+  margin-bottom: 5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.featured-video-item {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+}
+
+.featured-video-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.featured-video-item .video-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.video-info {
+  padding: 1.5rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.ongoing-badge {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: linear-gradient(135deg, #e74c3c, #ff9500);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  letter-spacing: 1px;
+  transform: translateY(0);
+  animation: float 3s ease-in-out infinite, pulse 2s infinite;
+}
+
+/* Latest projects styling */
+.latest-projects {
+  margin-bottom: 5rem;
+}
+
+.latest-item {
+  position: relative;
+  border: 2px solid #f0f0f0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.latest-badge {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  letter-spacing: 1px;
+  transform: translateY(0);
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Older builds styling */
+.videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.video-item {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+}
+
+.video-item:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.video-item .video-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.video-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0.7rem 0;
+  color: #222;
+}
+
+.video-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+/* Section transitions */
+.latest-projects {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.latest-projects::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+}
+
+.older-builds {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.older-builds::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes growWidth {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(76, 161, 175, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(76, 161, 175, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(76, 161, 175, 0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .page-title {
+    font-size: 3rem;
+  }
+  
+  .featured-video-item .video-container {
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+  
+  .builds-container {
+    padding: 1.5rem;
+  }
+  
+  .featured-video-item .video-container {
+    height: 350px;
+  }
+  
+  .video-item {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .latest-badge {
+    top: -8px;
+    right: 8px;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
+  
+  .ongoing-badge {
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .featured-video-item .video-container {
+    height: 250px;
+  }
+  
+  .ongoing-badge {
+    top: 0.8rem;
+    right: 0.8rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+  }
+} 
