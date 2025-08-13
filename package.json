@@ -2,7 +2,7 @@
   "name": "sde",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harshjindall.github.io/sde",
+  "homepage": "https://sde-sigma.vercel.app",
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "@react-pdf/renderer": "^4.3.0",
