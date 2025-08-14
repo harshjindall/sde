@@ -85,10 +85,10 @@ const ProfileSection = () => {
               CSE Grad @ Nagpur University
             </h2>
             <h2 className="spaceStyleSubheading">
-              Builder / Influencer / Trader
+              Trader / Engineer / Builder
             </h2>
             <p className="spaceStyleText"> 
-              20 y/o builder/quant working out of Chicago @ BrightHive (Series A AI Startup). Working on problems that interest me. <span className="subtle-emphasis">Handled $20M AUM in FX market at hedge funds. Received VC funding to put AI into sports scouting. 5x Hackathon Winner. Decoding Social Media Virality. Big-time crypto investor starting my own crypto fund.</span>
+              22 y/o Trader & SDE working on building the next gen AI startup. Currently working @ Jindal Marketing. I am leveraging code and data to drive trading strategies. 3x University-Level Competition Winner. <span className="subtle-emphasis">Handled $20M AUM in FX market at hedge funds. Received VC funding to put AI into sports scouting. 5x Hackathon Winner. Decoding Social Media Virality. Big-time crypto investor starting my own crypto fund.</span>
             </p>
           </div>
         </div>
