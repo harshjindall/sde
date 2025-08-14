@@ -116,19 +116,19 @@ export const HomePage = () => {
         <div style= {mediaStyle} className='mediaIcons'>
             <div style ={cushion}></div>
             <button link='' style = {mediaIcon} type='button' className='mediaIcon'>
-                <img src={process.env.PUBLIC_URL + '/githublogo.png'} style= {mediaImage}></img>
+                <img src={process.env.PUBLIC_URL + '/githublogo.webp'} style= {mediaImage}></img>
             </button>
             <button link='' style = {mediaIcon} type='button' className='mediaIcon'>
-                <img src={process.env.PUBLIC_URL + '/devpostlogo.png'} style= {mediaImage}></img>
+                <img src={process.env.PUBLIC_URL + '/devpostlogo.webp'} style= {mediaImage}></img>
             </button>
             <button link='' style = {mediaIcon} type='button' className='mediaIcon'>
-                <img src={process.env.PUBLIC_URL + '/linkedinlogo.png'} style= {mediaImage}></img>
+                <img src={process.env.PUBLIC_URL + '/linkedinlogo.webp'} style= {mediaImage}></img>
             </button>
             <button link='' style = {mediaIcon} type='button' className='mediaIcon'>
-                <img src={process.env.PUBLIC_URL + '/instagramlogo.png'} style= {mediaImage}></img>
+                <img src={process.env.PUBLIC_URL + '/instagramlogo.webp'} style= {mediaImage}></img>
             </button>
             <button link='' style = {mediaIcon} type='button' className='mediaIcon'>
-                <img src={process.env.PUBLIC_URL + '/youtubelogo.png'} style= {mediaImage}></img>
+                <img src={process.env.PUBLIC_URL + '/youtubelogo.webp'} style= {mediaImage}></img>
             </button>
 
         </div>
@@ -142,13 +142,13 @@ export const HomePage = () => {
             <h1 style={headerStyle}><a style={linkStyle} href=''>Got Projects?</a></h1>
         </div>
 
-        <img style= {profilePicture} className ='profilePicture' src={process.env.PUBLIC_URL + '/ProfilePicture.png'}/>
+        <img style= {profilePicture} className ='profilePicture' src={process.env.PUBLIC_URL + '/harshghibil.webp'}/>
         
         <div style = {aboutMe} className ='aboutMe'>
             <h1 style={strongHeading}>HARSH JINDAL</h1>
             <hr></hr>
             <h2 style={secondHeading}>Founder of BlockState&copy;</h2>
-            <p style={normalText}>Hey! I am Harsh, an aspiring technoprenuer. I am passionate about finding innovative solutions to global issues. I specialise in technologies such as Computer Vision, Blockchain, and Natural Language Processing.</p>
+            <p style={normalText}>Hey! I am Harsh, an aspiring techpreneur. I am passionate about finding innovative solutions to global issues. I specialise in technologies such as Computer Vision, Blockchain, and Natural Language Processing.</p>
         </div>
 
     </div>
