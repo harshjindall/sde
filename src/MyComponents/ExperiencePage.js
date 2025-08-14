@@ -59,32 +59,32 @@ const ExperiencePage = () => {
                 <span className="resume-date">March. 2025 - Present</span>
               </div>
               <ul className="resume-item-details">
-                <li>Deployed data retrieval agentic tools to production by developing a ETL pipeline from AWS Redshift creating a visualisation component for the platform driving an increase in annual contract value by <strong>$1.1M USD</strong> in <strong>2</strong> months</li>
-                <li>Optimized platform architecture and implemented a LRU cache for retrieved datasets in agentic agent workflows, reducing latency and improving operational efficiency by <strong>20%</strong>, enabling faster task execution</li>
+                <li>Spearheaded a multi-channel performance marketing campaign (Google Ads, Meta, and LinkedIn) that boosted qualified lead generation by <strong>65%</strong> within <strong>3 months</strong>.</li>
+                <li>Designed and executed SEO and content strategies that improved organic website traffic by <strong>120%</strong>.</li>
               </ul>
             </div>
             
             <div className="resume-item">
               <div className="resume-item-header">
                 <div>
-                  <h3>Quantitative Developer Intern</h3>
-                  <span className="resume-company">Synergy Link Capital - Quantitative Trading Firm</span>
+                  <h3>Software Engineer Intern</h3>
+                  <span className="resume-company">Stealth AI Startup</span>
                 </div>
-                <span className="resume-location">Singapore</span>
+                <span className="resume-location">San Francisco, USA</span>
               </div>
               <div className="resume-item-subheader">
-                <span className="resume-date">Aug. 2024 – Dec. 2024</span>
+                <span className="resume-date">Aug. 2025 – Present</span>
               </div>
               <ul className="resume-item-details">
-                <li>Developed load & store pipelines using multi-threading to efficiently handle high-frequency data streams with Python, Websockets, Asyncio, & PostgreSQL, with &lt;<strong>15</strong> ms latency ensuring <strong>100%</strong> accuracy in stored data</li>
-                <li>Integrated a logging framework for enhanced monitoring & debugging services, and applied batching to achieve optimization in system performance helping decrease downtime by <strong>3x</strong></li>
+                <li>Developed core backend systems enabling AI-powered warm introductions by mapping trust networks and optimizing connection paths, improving engagement likelihood over traditional cold outreach methods.</li>
+                <li>Built and deployed scalable APIs and data pipelines using <strong>Node.js, Python, and PostgreSQL</strong>, reducing response latency by <strong>30%</strong> and supporting seamless integration with third-party platforms.</li>
               </ul>
             </div>
             
             <div className="resume-item">
               <div className="resume-item-header">
                 <div>
-                  <h3>Quantitative Researcher Intern</h3>
+                  <h3>Digital Marketing Intern</h3>
                   <span className="resume-company">Rhicon Currency Management - Quantitative Trading Firm</span>
                 </div>
                 <span className="resume-location">Singapore</span>
