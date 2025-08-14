@@ -20,28 +20,28 @@ const ProfileSection = () => {
       image: "/ghibils/code.webp",
     },
     {
-      title: "MOVED TO CHICAGO",
-      image: "/ghibils/yuvchicagoghibil.png",
+      title: "Met a doctor",
+      image: "/ghibils/dr.webp",
     },
     {
       title: "Jindal Marketing",
       image: "/ghibils/jm.webp",
     },
     {
-      title: "HACKATHON WINNER",
-      image: "/ghibils/ghibili_indian.jpg",
+      title: "Dinner with family",
+      image: "/ghibils/dine.webp",
     },
     {
-      title: "HACKATHON WINNER",
-      image: "/ghibils/ghibili.jpg",
+      title: "Navratri",
+      image: "/ghibils/yel.webp",
     },
     {
-      title: "HACKATHON WINNER",
-      image: "/ghibils/carcrash.jpg",
+      title: "Mahakumbh",
+      image: "/ghibils/mk.webp",
     },
     {
-      title: "HACKATHON WINNER",
-      image: "/ghibils/pushups.jpg",
+      title: "Gym",
+      image: "/ghibils/gym.webp",
     },
   ];
 
