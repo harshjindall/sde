@@ -26,7 +26,7 @@ const ExperiencePage = () => {
               <span>|</span>
               <a href="https://github.com/harshjindall" target="_blank" rel="noopener noreferrer">github.com/harshjindall</a>
               <span>|</span>
-              <a href="https://harshjindall.github.io/sde" target="_blank" rel="noopener noreferrer">https://harshjindall.github.io/sde</a>
+              <a href="https://sde-sigma.vercel.app" target="_blank" rel="noopener noreferrer">https://sde-sigma.vercel.app</a>
             </div>
           </div>
           
