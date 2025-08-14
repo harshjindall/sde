@@ -12,20 +12,20 @@ const ProfileSection = () => {
   // Gallery images data
   const lifeGallery = [
     {
-      title: "Won Solana Track at HackNYU 2025",
-      image: "/ghibils/ghibli_hacknyu.png",
+      title: "Won UST Abhyudaya",
+      image: "/ghibils/ust.webp",
     },
     {
-      title: "Crypto Fund",
-      image: "/ghibils/yuv_fund.png",
+      title: "Started Development",
+      image: "/ghibils/code.webp",
     },
     {
       title: "MOVED TO CHICAGO",
       image: "/ghibils/yuvchicagoghibil.png",
     },
     {
-      title: "SWE @ BRIGHTHIVE",
-      image: "/ghibils/brighthive_ghibli.png",
+      title: "Jindal Marketing",
+      image: "/ghibils/jm.webp",
     },
     {
       title: "HACKATHON WINNER",
