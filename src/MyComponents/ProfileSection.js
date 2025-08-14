@@ -82,7 +82,7 @@ const ProfileSection = () => {
           <div className="profile-content">
             <h1 className="spaceStyleHeading">HARSH JINDAL</h1>
             <h2 className="spaceStyleSubheading">
-              EECS & Maths Junior @ National University of Singapore
+              CSE Grad @ Nagpur University
             </h2>
             <h2 className="spaceStyleSubheading">
               Builder / Influencer / Trader
