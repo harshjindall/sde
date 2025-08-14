@@ -20,8 +20,8 @@ const ExperiencePage = () => {
           <div className="resume-header">
             <h1 className="resume-name">HARSH JINDAL</h1>
             <div className="resume-contact">
-              <span>+65-9370-4607</span>
-              <span>|</span>
+              // <span>+65-9370-4607</span>
+              // <span>|</span>
               <span>harsh@jindalmarketing.com</span>
               <span>|</span>
               <a href="https://linkedin.com/in/harshjindal" target="_blank" rel="noopener noreferrer">linkedin.com/in/harshjindal</a>
