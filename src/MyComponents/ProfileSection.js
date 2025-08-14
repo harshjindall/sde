@@ -88,7 +88,7 @@ const ProfileSection = () => {
               Trader / Engineer / Builder
             </h2>
             <p className="spaceStyleText"> 
-              22 y/o Trader & SDE working on building the next gen AI startup. Currently working @ Jindal Marketing. I am leveraging code and data to drive trading strategies. 3x University-Level Competition Winner. <span className="subtle-emphasis">Handled $20M AUM in FX market at hedge funds. Received VC funding to put AI into sports scouting. 5x Hackathon Winner. Decoding Social Media Virality. Big-time crypto investor starting my own crypto fund.</span>
+              22 y/o Trader & SDE working on building the next gen AI startup. Currently working @ Jindal Marketing. <span className="subtle-emphasis">I am leveraging code and data to drive trading strategies. 3x University-Level Competition Winner. Passionate about algorithmic trading, predictive modeling, AI systems, and startups. Trading enthusiast with eyes on launching my own quants firm. Always building, always learning.</span>
             </p>
           </div>
         </div>
