@@ -34,12 +34,12 @@ const ExperiencePage = () => {
             <h2>Education</h2>
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>National University of Singapore</h3>
-                <span className="resume-location">Singapore</span>
+                <h3>Nagpur University</h3>
+                <span className="resume-location">Nagpur</span>
               </div>
               <div className="resume-item-subheader">
-                <p>Bachelors in Computing and Electrical Engineering (Honours), with a Minor in Mathematics</p>
-                <span className="resume-date">Aug. 2022 – May 2026</span>
+                <p>Bachelors of Engineering with a major in Computer Science, and Minor in Finance</p>
+                <span className="resume-date">Dec. 2021 – March 2025</span>
               </div>
             </div>
           </section>
@@ -50,13 +50,13 @@ const ExperiencePage = () => {
             <div className="resume-item">
               <div className="resume-item-header">
                 <div>
-                  <h3>Software Engineer Intern</h3>
-                  <span className="resume-company">Brighthive - Series A staged AI Startup</span>
+                  <h3>Digital Marketing Executive</h3>
+                  <span className="resume-company">Jindal Marketing Agency</span>
                 </div>
-                <span className="resume-location">Chicago, USA</span>
+                <span className="resume-location">Nagpur, India</span>
               </div>
               <div className="resume-item-subheader">
-                <span className="resume-date">Jan. 2025 - Present</span>
+                <span className="resume-date">March. 2025 - Present</span>
               </div>
               <ul className="resume-item-details">
                 <li>Deployed data retrieval agentic tools to production by developing a ETL pipeline from AWS Redshift creating a visualisation component for the platform driving an increase in annual contract value by <strong>$1.1M USD</strong> in <strong>2</strong> months</li>
