@@ -85,16 +85,16 @@ const ExperiencePage = () => {
               <div className="resume-item-header">
                 <div>
                   <h3>Digital Marketing Intern</h3>
-                  <span className="resume-company">Rhicon Currency Management - Quantitative Trading Firm</span>
+                  <span className="resume-company">Lighthouse Info Systems</span>
                 </div>
-                <span className="resume-location">Singapore</span>
+                <span className="resume-location">Nagpur</span>
               </div>
               <div className="resume-item-subheader">
-                <span className="resume-date">May 2024 – Aug. 2024</span>
+                <span className="resume-date">Dec. 2024 – Mar. 2025</span>
               </div>
               <ul className="resume-item-details">
-                <li>Engineered a vectorized and multi-threaded backtesting framework using OOP principles across multiple assets and instruments to increase runtime speed by <strong>200%</strong></li>
-                <li>Developed a trading portfolio with <strong>3</strong> breakout & reversion strategies using advanced statistical techniques for trading futures in <strong>5</strong> FX pairs & <strong>2</strong> metals outperforming traditional ETFs by <strong>12%</strong></li>
+                <li>Conducted in-depth keyword research, on-page optimization, and technical audits, contributing to a <strong>45%</strong> increase in organic traffic and improved SERP rankings for key client websites.</li>
+                <li>Collaborated with content and dev teams to implement structured data, optimize metadata, and improve page speed enhancing overall SEO health scores and boosting crawlability across multiple domains</li>
               </ul>
             </div>
           </section>
@@ -114,10 +114,7 @@ const ExperiencePage = () => {
                 <h3>Data Science Libraries:</h3>
                 <p>Pandas, SciPy/NumPy, Matplotlib, Scikit-learn, Tensorflow, OCR, OpenCV</p>
               </div>
-              <div className="skill-item">
-                <h3>Online Courses:</h3>
-                <p>Deep Learning Specialisation, Stanford CS229: Machine Learning, Coursera: Applied Econometrics</p>
-              </div>
+              
             </div>
           </section>
           
