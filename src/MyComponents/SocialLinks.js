@@ -6,27 +6,27 @@ const SocialLinks = () => {
   const socialLinks = [
     {
       name: "GitHub",
-      imageSrc: "/githublogo.png",
+      imageSrc: "/githublogo.webp",
       url: "https://github.com/HarshJindall"
     },
     {
       name: "Devpost",
-      imageSrc: "/devpostlogo.png",
+      imageSrc: "/devpostlogo.webp",
       url: "https://devpost.com/harshjindal"
     },
     {
       name: "YouTube",
-      imageSrc: "/youtubelogo.png",
+      imageSrc: "/youtubelogo.webp",
       url: "https://www.youtube.com/@HarshJindall"
     },
     {
       name: "Instagram",
-      imageSrc: "/instagramlogo.png",
+      imageSrc: "/instagramlogo.webp",
       url: "https://www.instagram.com/HarshJindall/"
     },
     {
       name: "LinkedIn",
-      imageSrc: "/linkedinlogo.png",
+      imageSrc: "/linkedinlogo.webp",
       url: "https://www.linkedin.com/in/HarshJindal/"
     }
   ];
