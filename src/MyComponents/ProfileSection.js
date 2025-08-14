@@ -50,22 +50,22 @@ const ProfileSection = () => {
     {
       platform: "LinkedIn",
       url: "https://www.linkedin.com/in/harshjindal/",
-      icon: "/linkedinlogo.png"
+      icon: "/linkedinlogo.webp"
     },
     {
       platform: "GitHub",
       url: "https://github.com/harshjindall",
-      icon: "/githublogo.png"
+      icon: "/githublogo.webp"
     },
     {
-      platform: "Twitter",
-      url: "https://y/harshjindall",
-      icon: "/youtubelogo.png"
+      platform: "Youtube",
+      url: "https://youtube.com/harshjindall",
+      icon: "/youtubelogo.webp"
     },
     {
       platform: "Instagram",
       url: "https://instagram.com/harshjindall",
-      icon: "/instagramlogo.png"
+      icon: "/instagramlogo.webp"
     }
   ];
 
@@ -76,7 +76,7 @@ const ProfileSection = () => {
         <div className="aboutMe" id="about">
           <img
             className="avatar"
-            src={process.env.PUBLIC_URL + "/yuvghibil.png"}
+            src={process.env.PUBLIC_URL + "/harshghibil.webp"}
             alt="Harsh Jindal Profile"
           />
           <div className="profile-content">
