@@ -188,7 +188,7 @@ const ContactPage = () => {
           paddingTop: "20px",
           borderTop: "1px solid #eee"
         }}>
-          <p>Or reach me directly at: <strong>harsh@jindalmarketing.com</strong></p>
+          <p>Or reach me directly at: <strong>harshjindxl@gmail.com</strong></p>
           <div style={{marginTop: "15px"}}>
             <a 
               href="https://github.com/harshjindall" 
