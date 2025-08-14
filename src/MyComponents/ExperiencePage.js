@@ -123,7 +123,7 @@ const ExperiencePage = () => {
             
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>Solana Track Winner, HackNYU 2025 | Python, GraphQL, React.js, FastAPI</h3>
+                <h3>Solana Track Winner, Techshastra 2025 | Python, GraphQL, React.js, FastAPI</h3>
                 <span className="resume-date">Feb. 2025</span>
               </div>
               <ul className="resume-item-details">
