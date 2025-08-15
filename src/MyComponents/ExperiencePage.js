@@ -147,7 +147,7 @@ const ExperiencePage = () => {
                 <span className="resume-date">Dec. 2024</span>
               </div>
               <ul className="resume-item-details">
-                <li>Applied Vector Autoregression (VAR) to analyze bidirectional causality and feedback mechanisms among F&B stocks, U.S. obesity rates, soda consumption, crude oil prices, and other socio-economic factors.</li>
+                <li>Developed a comprehensive ideation solution in a high-pressure innovation sprint, placing 2nd out of numerous university-level teams.</li>
               </ul>
             </div>
 
