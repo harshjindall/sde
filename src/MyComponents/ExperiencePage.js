@@ -123,21 +123,21 @@ const ExperiencePage = () => {
             
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>1st Runner Up, Techshastra 2025 | Team Collaboration, Innovation Strategy, Problem-Solving</h3>
-                <span className="resume-date">Feb. 2024</span>
+                <h3>1st Place, AI Odyssey 2024 | Python, ML Collaboration, AI Strategy</h3>
+                <span className="resume-date">Apr. 2024</span>
               </div>
               <ul className="resume-item-details">
-                <li>Used GraphQL to fetch data across multiple APIs predicting real-time network congestion on Solana via XGBoost offering a cost effective solution for traders to mitigate high gas fees</li>
+                <li>Secured 1st position at AI Odyssey'24 organized by IEEE CIS & Jarvis GHRCE for developing a winning AI-driven solution.</li>
               </ul>
             </div>
             
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>Finalist, Citadel APAC Datathon 2024 | Pandas, Numpy, Matplotlib</h3>
-                <span className="resume-date">Feb. 2024</span>
+                <h3>Ultimate Socio Technocrat Winner, Abhyudaya 2024 | Sustainable Agriculture, Bio-Tech Innovation</h3>
+                <span className="resume-date">Sept. 2024</span>
               </div>
               <ul className="resume-item-details">
-                <li>Preprocessed & Engineered features through hypothesis testing, building a CatBoost Regressor to forecast company sales with hyperparameter tuning using K-folds</li>
+                <li>Presented an innovative anti-fungal manure concept to combat crop infections while promoting eco-friendly agricultural practices. Won 1st prize among multi-disciplinary teams for practical and scalable design.</li>
               </ul>
             </div>
             
