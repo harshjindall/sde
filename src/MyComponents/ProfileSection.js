@@ -88,7 +88,7 @@ const ProfileSection = () => {
               Trader / Engineer / Builder
             </h2>
             <p className="spaceStyleText"> 
-              22 y/o Trader & SWE working on building the next gen AI startup. Currently working @ Jindal Marketing. <span className="subtle-emphasis">I am leveraging code and data to drive trading strategies. 3x University-Level Competition Winner. Passionate about algorithmic trading, predictive modeling, AI systems, and startups. Trading enthusiast with eyes on launching my own quants firm.<br>Always building, Always Learning.</span>
+              22 y/o Trader & SWE working on building the next gen AI startup. Currently working @ Jindal Marketing. <span className="subtle-emphasis">I am leveraging code and data to drive trading strategies. 3x University-Level Competition Winner. Passionate about algorithmic trading, predictive modeling, AI systems, and startups. Trading enthusiast with eyes on launching my own quants firm.<br />Always building, Always Learning.</span>
             </p>
           </div>
         </div>
