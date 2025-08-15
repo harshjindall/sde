@@ -158,21 +158,21 @@ const ExperiencePage = () => {
             
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>Medical Sensors Dashboard | Javascript, Next/React.js, Python</h3>
-                <span className="resume-date">Nov. 2024 – Jan. 2025</span>
+                <h3>Face Traq Attendance System | Python, OpenCV, Face Recognition, Flask</h3>
+                <span className="resume-date">Feb. 2024 – Nov. 2024</span>
               </div>
               <ul className="resume-item-details">
-                <li>Designed and implemented a multi-threaded Web Workers pool using JavaScript to optimize data processing, reducing processing time by <strong>50%</strong>, and enabling real-time analysis of concurrent high-frequency data streams</li>
+                <li>Built a facial recognition-based attendance system using OpenCV and Flask, achieving high detection accuracy and reducing manual attendance time by <strong>75%</strong>.</li>
               </ul>
             </div>
             
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>Full-Stack Women's Safety Mobile App | Flutter, Firebase, Python, Flask, Tensorflow</h3>
-                <span className="resume-date">May 2023 – Aug. 2023</span>
+                <h3>Warmly AI | Python, GPT-4 API, Node.js, React, Firebase</h3>
+                <span className="resume-date">Aug. 2025 – Present</span>
               </div>
               <ul className="resume-item-details">
-                <li>Developed a full-stack app using Flutter and Flask with REST APIs, integrating TensorFlow's ResNet object detection model to classify dangerous objects with <strong>90%</strong> accuracy, aimed at enhancing women's safety</li>
+                <li>Developed a lead-matching platform using GPT-4 for company and persona parsing, Node.js for matchmaking logic, and Firebase for storage, achieving <strong>3×</strong> higher response rates than traditional cold outreach.</li>
               </ul>
             </div>
           </section>
