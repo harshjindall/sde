@@ -17,7 +17,7 @@ const BuildsPage = () => {
     {
       id: "fT5h6VGqf2sa",
       title: "Quants Trading Using Machine Learning",
-      description: "Developed a reinforcement learning-based trading agent that learns optimal buy/sell decisions to maximize returns on historical market data."
+      description: "Developed a machine learning-based trading agent that learns optimal buy/sell decisions to maximize returns on historical market data."
     },
     {
       id: "anMExD1-qmsa",
