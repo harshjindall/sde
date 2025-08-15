@@ -7,8 +7,8 @@ const BuildsPage = () => {
   const currentProjects = [
     {
       id: "9TGB7EphkiMa",
-      title: "AI Sports Scout",
-      description: "Computer vision platform for analyzing sports players and performance metrics"
+      title: "Warmly AI",
+      description: "AI-powered platform for generating high-conversion B2B leads through automated warm introductions"
     }
   ];
 
@@ -16,18 +16,18 @@ const BuildsPage = () => {
   const latestProjects = [
     {
       id: "fT5h6VGqf2sa",
-      title: "Crypto Smart Contract Screener",
-      description: "Built algorithms to screen smart contracts for potential exploits and vulnerabilities in 24 hours for HackIllinois 2025"
+      title: "Quants Trading Using Reinforcement Learning",
+      description: "Developed a reinforcement learning-based trading agent that learns optimal buy/sell decisions to maximize returns on historical market data."
     },
     {
       id: "anMExD1-qmsa",
-      title: "Real-Time Network Congestion Prediction",
-      description: "Used GraphQL, Trained Gradient Boosted Trees model to predict real-time network congestion on Solana in 24 hours for HackNYU 2025"
+      title: "AI-Based Fraud Detection System",
+      description: "Developed a machine learning model using XGBoost and Python to identify fraudulent transactions with 95% accuracy in real-time."
     },
     {
       id: "NkZbLYc5UZ8a",
-      title: "Microloans Platform using Smart Contracts",
-      description: "Created a microloans platform using smart contracts to offer lower interest rates to borrowers"
+      title: "Customer Support Chatbot with NLP",
+      description: "Built an intelligent chatbot using Transformer-based models to handle customer queries and reduce response time by 40%."
     }
   ];
 
@@ -35,18 +35,18 @@ const BuildsPage = () => {
   const olderBuilds = [
     {
       id: "cMu2bqR9fJ0a",
-      title: "App for Woman's Safety",
-      description: "Used Google Maps API to create SSP routes, CV for real time object detection, and GPS to track user location"
+      title: "Computer Vision Defect Detection in Manufacturing",
+      description: "Implemented a convolutional neural network (CNN) to automatically detect product defects on assembly lines using real-time image data."
     },
     {
       id: "AVWhU_kU328a",
-      title: "Telegram Bot to Schedule Meetings",
-      description: "Integrated Telegram bot on Monday.com's Platform to schedule meetings and messages"
+      title: "AI Learning Agent for Portfolio Management",
+      description: "Implemented a deep reinforcement learning agent to dynamically allocate assets, maximizing returns while minimizing risk."
     },
     {
       id: "2i2neRzHRmQa",
-      title: "Smart Vehicle for Rough Terrain",
-      description: "Created a smart vehicle for rough terrain using Arduino and Raspberry Pi"
+      title: "Deep Learning Music Genre Classifier",
+      description: "Created an audio classification model using CNN and spectrograms to classify music genres with 92% accuracy."
     }
   ];
 
