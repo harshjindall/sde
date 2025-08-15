@@ -123,8 +123,8 @@ const ExperiencePage = () => {
             
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>Solana Track Winner, Techshastra 2025 | Python, GraphQL, React.js, FastAPI</h3>
-                <span className="resume-date">Feb. 2025</span>
+                <h3>1st Runner Up, Techshastra 2025 | Team Collaboration, Innovation Strategy, Problem-Solving</h3>
+                <span className="resume-date">Feb. 2024</span>
               </div>
               <ul className="resume-item-details">
                 <li>Used GraphQL to fetch data across multiple APIs predicting real-time network congestion on Solana via XGBoost offering a cost effective solution for traders to mitigate high gas fees</li>
@@ -143,23 +143,14 @@ const ExperiencePage = () => {
             
             <div className="resume-item">
               <div className="resume-item-header">
-                <h3>1st Runner Up, NUS Fintech Summit | Xrpl-py, FastAPI, Firebase, Scikit-learn, React, Next</h3>
-                <span className="resume-date">Jan. 2024</span>
+                <h3>1st Runner Up, Techshastra 2024 | Team Collaboration, Innovation Strategy, Problem-Solving</h3>
+                <span className="resume-date">Dec. 2024</span>
               </div>
               <ul className="resume-item-details">
                 <li>Applied Vector Autoregression (VAR) to analyze bidirectional causality and feedback mechanisms among F&B stocks, U.S. obesity rates, soda consumption, crude oil prices, and other socio-economic factors.</li>
               </ul>
             </div>
-            
-            <div className="resume-item">
-              <div className="resume-item-header">
-                <h3>1st Place, NUS Datathon | Pandas, CatBoost, Tensorflow</h3>
-                <span className="resume-date">Feb. 2024</span>
-              </div>
-              <ul className="resume-item-details">
-                <li>Secured funding by Ripple for deploying a smart-contract based microfinancing application to manage blockchain loan payments and used predictive modeling to classify user loan eligibilites.</li>
-              </ul>
-            </div>
+
           </section>
           
           <section className="resume-section">
